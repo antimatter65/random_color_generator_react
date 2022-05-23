@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App {
+  text-align: center;
+}
+
+.myCssDiv {
+  border-radius: 10px;
+  width: 50vw;
+  background-color: grey;
+  color: blanchedalmond;
+  margin: 10px auto;
+  text-align: center;
+  font-style: italic;
+  font-size: large;
+  height: 5vw;
+}
+
+.myCssDiv2 {
+  border-radius: 10px;
+  font-size: large;
+  width: 50vw;
+  background-color: blanchedalmond;
+  color: grey;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.myCssDiv3 {
+  border-radius: 10px;
+  width: 50vw;
+  color: blanchedalmond;
+  margin: 10px auto;
+  text-align: center;
+  font-style: italic;
+  font-size: large;
+  transition: background-color 3s ease-out;
+  height: 15vw;
+}
+
+.myCssDiv4 {
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+  border: black solid 1px;
+  border-width: 1px;
+  width: 40vw;
+  color: blanchedalmond;
+  margin: 10px auto;
+  text-align: center;
+  font-style: italic;
+  font-size: large;
+  transition: background-color 3s ease-out;
+  height: 10vw;
+  display: block;
+  position: absolute;
+  -webkit-animation: moveX 2s linear 0s infinite alternate,
+    moveY 3.4s linear 0s infinite alternate;
+  -moz-animation: moveX 2s linear 0s infinite alternate,
+    moveY 3.4s linear 0s infinite alternate;
+  -o-animation: moveX 2s linear 0s infinite alternate,
+    moveY 3.4s linear 0s infinite alternate;
+  animation: moveX 2s linear 0s infinite alternate,
+    moveY 3.4s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes moveX {
+  from {
+    left: 25vmax;
+  }
+  to {
+    left: 35vmax;
+  }
+}
+@-moz-keyframes moveX {
+  from {
+    left: 25vmax;
+  }
+  to {
+    left: 35vmax;
+  }
+}
+@-o-keyframes moveX {
+  from {
+    left: 25vmax;
+  }
+  to {
+    left: 35vmax;
+  }
+}
+@keyframes moveX {
+  from {
+    left: 25vmax;
+  }
+  to {
+    left: 35vmax;
+  }
+}
+
+@-webkit-keyframes moveY {
+  from {
+    top: 37vmax;
+  }
+  to {
+    top: 45vmax;
+  }
+}
+@-moz-keyframes moveY {
+  from {
+    top: 36vmax;
+  }
+  to {
+    top: 45vmax;
+  }
+}
+@-o-keyframes moveY {
+  from {
+    top: 37vmax;
+  }
+  to {
+    top: 45vmax;
+  }
+}
+@keyframes moveY {
+  from {
+    top: 37vmax;
+  }
+  to {
+    top: 45vmax;
+  }
+}
